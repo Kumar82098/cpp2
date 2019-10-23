@@ -5,12 +5,12 @@ int main()
 {
   int i,j,k,a[3][3],b[3][3],ab[3][3],sum=0;
   
-  cout<<endl<<"Enter 9 elements for 1st matrix: "<<endl;
+  cout<<endl<<"Enter nine elements for first matrix: "<<endl;
   for(i=0;i<3;i++)
    for(j=0;j<3;j++)
      cin>>a[i][j];
   
-  cout<<"Enter 9 elements for 2nd matrix : "<<endl;
+  cout<<"Enter nine elements for second matrix : "<<endl;
   for(i=0;i<3;i++)
    for(j=0;j<3;j++)
      cin>>b[i][j];
